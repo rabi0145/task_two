@@ -4,8 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+    table,th,td{
+        border: 2px solid black;
+        margin: 10px;
+        padding: 10px;
+        border-collapse: collapse;
+    }
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    </style>
 </head>
 <body>
-    hkasjj  
+    <table>
+        <tr>
+            <th>S.N.</th>
+            <th> </th>
+            <td>1</td>
+            <td>2</td>
+
+        </tr>
+
+        <tr>
+            <th rowspan="2">Full Name</th>
+            <th>First Name</th>
+            <td>Ram</td>
+            <td>Sita</td>
+        </tr>
+
+        <tr>
+            <th>Last Name</th>
+            <td>Karki</td>
+            <td>Karki</td>
+        </tr>
+
+        <tr>
+            <th>Contact</th>
+            <td> </td>
+            <td>9800000000</td>
+            <td>9800000001</td>
+        </tr>
+    </table>
 </body>
 </html>
